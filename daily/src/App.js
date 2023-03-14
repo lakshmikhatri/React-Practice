@@ -18,9 +18,10 @@ import './App.css';
 //import Refs from './Components/Refs/Refs';
 //import Callbackref from './Components/Refs/Callbackref';
 //import Focusinput from './Components/Refs with class component/Focusinput';
-import FRParentinput from './Components/Forwarding Refs/FRParentinput';
+//import FRParentinput from './Components/Forwarding Refs/FRParentinput';
 //import FRinput from './Components/Forwarding Refs/FRinput';
-
+// import Portals from './Components/Portals/Portals';
+import Hero from './Components/Error boundary/Hero';
 
 function App() {
   return (
@@ -43,8 +44,12 @@ function App() {
       {/* <Refs/> */}
       {/* <Callbackref/> */}
       {/* <Focusinput/> */}
-      <FRParentinput/>
+      {/* <FRParentinput/> */}
       {/* <FRinput/> */}
+      {/* <Portals/> */}
+      <Hero heroname="Batman"/>
+      <Hero heroname="Superman"/>
+      <Hero heroname="Joker"/>
     </div>
   );
 }
