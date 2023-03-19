@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
+//import Clickcounter from './Higher order components/Clickcounter'
+//import Hovercounter from './Higher order components/Hovercounter';
+//import Clickcounter from './Higher order Component/Clickcounter ';
+//import Hovercounter from './Higher order Component/Hovercounter';
+//import Clickcountertwo from './Renderprops/Clickcountertwo';
+//import Hovercounter from './Renderprops/Hovercounter';
+//import User from'./Renderprops/User';
+//import Counter from './Renderprops/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter >
+     {(count,incrementCount) =>(
+        <Clickcountertwo count={count} incrementCount={incrementCount}/>
+      )}
+      </Counter>
+     
+       <Counter >
+     {(count,incrementCount) =>(
+        <Hovercounter count={count} incrementCount={incrementCount}/>
+      )} */}
+      {/* </Counter> */}
+      {/* <Clickcounter name='Mallu'/> */}
+      {/* <Hovercounter/> */}
+      {/* <Clickcountertwo/>
+      <Hovercounter/> 
+      <User render={(isLoggedIn)=> isLoggedIn ? 'Mallu':'lucky'}/> */}
+      
     </div>
   );
 }
